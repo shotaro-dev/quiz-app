@@ -134,7 +134,7 @@
     const idx = order[current];
     const item = QUESTIONS[idx];
     qText.textContent = `Q${current + 1}. ${item.q}`;
-    choicesList.innerHTML = "";
+    choicesList.textContent = "";
     item.choices.forEach((ch, i) => {
       const li = document.createElement("li");
       li.className = "choice";
@@ -239,7 +239,8 @@
     try {
       const key = "quiz_highscore_v1";
       const highScore = Number(localStorage.getItem(key) || "0");
-      if (highScoreEl) highScoreEl.textContent = `${highScore} / ${order.length}`;
+      if (highScoreEl)
+        highScoreEl.textContent = `${highScore} / ${order.length}`;
     } catch (e) {
       if (highScoreEl) highScoreEl.textContent = "0";
     }
