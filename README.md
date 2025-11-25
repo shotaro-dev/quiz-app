@@ -23,3 +23,7 @@ A small, accessible quiz application implemented in plain (vanilla) JavaScript. 
   - High scores (best correct answers) are saved to `localStorage` using the key `quiz_highscore_v1` and displayed on the results screen.
 - Responsive, modern UI
   - Simple card-based UI with responsive layout for mobile and desktop.
+
+---
+
+Made with ❤️ by [@shotaro-dev](https://github.com/shotaro-dev) • [MIT Licensed](LICENSE)
