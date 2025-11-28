@@ -1,6 +1,6 @@
 # Quiz App (Vanilla JS)
 
-[![Live Demo](https://img.shields.io/badge/Live_Demo-👀_Click_here!-blue?style=for-the-badge&logo=github)](https://shotaro-dev.github.io/quiz-app/)
+[![Live Demo](https://img.shields.io/badge/Live_Demo-👀_Click_here!-blue?style=for-the-badge&logo=vercel)](https://quiz-app-nu-drab.vercel.app/)
 
 A small, accessible quiz application implemented in plain (vanilla) JavaScript. It is intended as a learning example or a lightweight prototype. The app focuses on being simple, keyboard-friendly, and accessible.
 
